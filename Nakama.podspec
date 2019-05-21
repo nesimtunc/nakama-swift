@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "Nakama"
-  s.version      = "2.0.0"
+  s.version      = "2.0.1"
   s.summary      = "Swift client for Nakama server."
   s.description  = <<-DESC
   Swift client for Nakama server.
@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
   s.dependency "SwiftProtobuf", "~> 1"
   s.dependency "Starscream", "~> 2"
   s.dependency "PromiseKit", "~> 6"
-  s.dependency "SwiftGRPC", "~> 0.6.0"
+  s.dependency "SwiftGRPC", "~> 0.9.0"
 
 end
